@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img src="./assets/rails-phoniex-logo.png">
+    <Landing msg="Welcome to Rails to Phoniex"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Landing from './components/Landing.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Landing
   }
 }
 </script>
