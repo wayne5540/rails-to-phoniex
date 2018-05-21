@@ -3,6 +3,7 @@
   "homepage": "git@github.com:wayne5540/rails-to-phoniex",
   "version": "0.1.0",
   "private": true,
+  "wst": "/dist/",
   "scripts": {
     "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build",
