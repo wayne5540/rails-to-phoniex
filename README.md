@@ -26,7 +26,7 @@ First of all, **THANK YOU** for willing to improve this project and hope you fin
 If you want to add more mapping data, there are 2 ways to do this:
 
 1. If you are a git user, you can edit [/src/data/mapping.json](/src/data/mapping.json) and send a PR.
-2. You can open an issue.
+2. You can Open an issue(https://github.com/wayne5540/rails-to-phoniex/issues/new?template=new_mapping.md&labels=add+mapping).
 
 You can check [Contribution Guide](CONTRIBUTION_GUIDE.md) for more information.
 

@@ -46,6 +46,6 @@ An basic example of mapping data:
 
 ## 2. Open an issue
 
-1. Visit [https://github.com/wayne5540/rails-to-phoniex/issues/new](https://github.com/wayne5540/rails-to-phoniex/issues/new)
+1. Open a new issue(https://github.com/wayne5540/rails-to-phoniex/issues/new?template=new_mapping.md&labels=add+mapping)
 2. Filled the issue template and submit it
 
