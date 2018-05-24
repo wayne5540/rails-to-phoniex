@@ -49,9 +49,9 @@ export default {
   methods: {
     cards: function () {
       if (this.searchKey == "") {
-        return Object.values(this.mapping)
+        return this.mapping.gems
       } else {
-        return Object.values(this.mapping).filter((gem) => (
+        return this.mapping.gems.filter((gem) => (
           gem.alias_names.find((name) => (
             name.toLowerCase().includes(this.searchKey.toLowerCase())
           ))

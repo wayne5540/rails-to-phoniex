@@ -1,37 +1,42 @@
 {
-  "ActiveRecord": {
-    "name": "ActiveRecord",
-    "url": "https://github.com/rails/rails/tree/master/activerecord",
-    "description": "Active Record is the M in MVC - the model - which is the layer of the system responsible for representing business data and logic. Active Record facilitates the creation and use of business objects whose data requires persistent storage to a database. It is an implementation of the Active Record pattern which itself is a description of an Object Relational Mapping system.",
-    "alias_names": [
-      "ActiveRecord", "active_record", "AR", "active record"
-    ],
-    "elixir_plugs": [
-      {
-        "name": "ecto",
-        "url": "https://github.com/elixir-ecto/ecto",
-        "description": ""
-      }
-    ]
-  },
-  "Devise": {
-    "name": "Devise",
-    "url": "https://github.com/plataformatec/devise",
-    "description": "Flexible authentication solution for Rails with Warden.",
-    "alias_names": [
-      "Devise"
-    ],
-    "elixir_plugs": [
-      {
-        "name": "guardian",
-        "url": "https://github.com/ueberauth/guardian",
-        "description": "Elixir Authentication"
-      },
-      {
-        "name": "coherence",
-        "url": "https://github.com/smpallen99/coherence",
-        "description": "Coherence is a full featured, configurable authentication system for Phoenix"
-      }
-    ]
-  }
+  "gems": [
+    {
+      "name": "ActiveRecord",
+      "url": "https://github.com/rails/rails/tree/master/activerecord",
+      "description": "Active Record is the M in MVC - the model - which is the layer of the system responsible for representing business data and logic. Active Record facilitates the creation and use of business objects whose data requires persistent storage to a database. It is an implementation of the Active Record pattern which itself is a description of an Object Relational Mapping system.",
+      "alias_names": [
+        "ActiveRecord",
+        "active_record",
+        "AR",
+        "active record"
+      ],
+      "elixir_plugs": [
+        {
+          "name": "ecto",
+          "url": "https://github.com/elixir-ecto/ecto",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "Devise",
+      "url": "https://github.com/plataformatec/devise",
+      "description": "Flexible authentication solution for Rails with Warden.",
+      "alias_names": [
+        "Devise"
+      ],
+      "elixir_plugs": [
+        {
+          "name": "guardian",
+          "url": "https://github.com/ueberauth/guardian",
+          "description": "Elixir Authentication"
+        },
+        {
+          "name": "coherence",
+          "url": "https://github.com/smpallen99/coherence",
+          "description": "Coherence is a full featured, configurable authentication system for Phoenix"
+        }
+      ]
+    }
+  ]
 }
