@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="col-sm-12 col-lg-8">
     <div class="text-center mb-5">
       <h1>Welcome to Rails to Phoniex</h1>
       <h3 class="text-muted">Find exilir libraries by ruby gem's name</h3>
@@ -27,6 +27,11 @@
         </li>
       </ul>
     </div>
+
+    <div v-show="cards().length == 0">
+      <h3>Oops, can't find any gem by given keyword: {{ searchKey }}</h3>
+      <p>You can help us to <a href="https://github.com/wayne5540/rails-to-phoniex">add the missing piece</a> and becomes a contrubitor (Thank you~ 🙏) or try other keyword.</p>
+    </div>
   </div>
 </template>
 
@@ -46,7 +51,11 @@ export default {
       if (this.searchKey == "") {
         return Object.values(this.mapping)
       } else {
-        return Object.values(this.mapping).filter((gem) => (gem.name.toLowerCase().includes(this.searchKey.toLowerCase())))
+        return Object.values(this.mapping).filter((gem) => (
+          gem.alias_names.find((name) => (
+            name.toLowerCase().includes(this.searchKey.toLowerCase())
+          ))
+        ))
       }
     }
   }
