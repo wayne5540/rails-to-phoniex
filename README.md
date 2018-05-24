@@ -12,7 +12,7 @@ Welcome, to add more mapping data, just edit [/src/data/mapping.json](/src/data/
 * A better search algorithm
 * SEO
 
-## Licence
+## License
 
-TO BE DECIDED
+[Apache V2](LICENSE)
 
