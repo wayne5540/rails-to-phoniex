@@ -11,7 +11,6 @@ Welcome, to add more mapping data, just edit [/src/data/mapping.json](/src/data/
 
 * A better search algorithm
 * SEO
-* Google Analytics
 
 ## Licence
 

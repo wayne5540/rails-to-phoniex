@@ -11,7 +11,8 @@
     "deploy": "node ./node_modules/vue-gh-pages/index.js -b gh-pages -o ./"
   },
   "dependencies": {
-    "vue": "^2.5.16"
+    "vue": "^2.5.16",
+    "vue-analytics": "^5.12.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.0-beta.10",
