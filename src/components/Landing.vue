@@ -22,8 +22,8 @@
         <p class="card-text text-muted" >{{ card.description }}</p>
       </div>
       <ul class="list-group list-group-flush">
-        <li class="list-group-item" v-for="plug in card.elixir_plugs" v-bind:key="plug.name">
-          <span>{{ plug.name }}</span> - <a :href="plug.url">{{ plug.url }}</a>
+        <li class="list-group-item" v-for="plugin in card.elixir_plugins" v-bind:key="plugin.name">
+          <span>{{ plugin.name }}</span> - <a :href="plugin.url">{{ plugin.url }}</a>
         </li>
       </ul>
     </div>

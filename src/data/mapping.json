@@ -10,7 +10,7 @@
         "AR",
         "active record"
       ],
-      "elixir_plugs": [
+      "elixir_plugins": [
         {
           "name": "ecto",
           "url": "https://github.com/elixir-ecto/ecto",
@@ -25,7 +25,7 @@
       "alias_names": [
         "Devise"
       ],
-      "elixir_plugs": [
+      "elixir_plugins": [
         {
           "name": "guardian",
           "url": "https://github.com/ueberauth/guardian",
